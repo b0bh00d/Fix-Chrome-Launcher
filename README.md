@@ -36,6 +36,8 @@ Optionally, you can add another entry to this registry key called `fcl_interval`
 
 I did some checking, and Chrome does not delete its primary registry key when it updates (or when it installs for the first time, for that matter), so these custom key values should be safe and persistent between updates of the browser.
 
+![regedit_2021-09-18_13-23-25](https://user-images.githubusercontent.com/4536448/133906289-d8a102b6-4073-4e00-b969-864690d19aae.png)
+
 ## Building
 
 On Windows, compile with: `go generate & go build -ldflags "-s -w" .`
