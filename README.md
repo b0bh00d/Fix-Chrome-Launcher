@@ -18,7 +18,7 @@ in the Windows registry under the path
 
 The default entry for this key holds the command that Windows will execute when following links you click.
 
-Great!  I'll just insert my custom option ("--incognito") into this string, and indirect browsing will always use that mode.  Right?
+Great!  I'll just insert my custom option ("--incognito") into this string, and indirect browsing will always use that mode when a new browser window is opened, right?  Right?
 
 Wrong.  Every time Chrome does any kind of update, it resets this string, and suddenly I'm opening browser windows in standard "tracking" mode.
 
