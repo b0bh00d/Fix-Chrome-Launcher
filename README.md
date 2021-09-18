@@ -40,7 +40,7 @@ I did some checking, and Chrome does not delete its primary registry key when it
 
 ## Building
 
-On Windows, compile with: `go generate & go build -ldflags "-s -w" .`
+On Windows, compile with: `go build -ldflags "-s -w" .`
 
 The service uses the excellent `github.com/kardianos/service` module to perform its operations.  All dependencies should be retrieved by the Go system as part of the build process.
 
